@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="index.js"></script>
+<script>
+    window.onload = function(){
+        var logger = new Pihhstake();
+        console.error('Log error');
+        console.warn('Log warn');
+        throw new Error('log a real error');
+    }
+</script>
+</body>
+</html>
